@@ -1,0 +1,97 @@
+
+body {
+    background-color: rgb(226, 217, 189);
+}
+h1 {
+    position: fixed;
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 0px 0px;
+}
+h2 {
+    width: 50px;
+    height: 50px;
+    padding: 60px 60px;
+    position: relative;
+    bottom: 210px;
+    right: 230px;
+    display: inline;
+    z-index: 3;
+
+    
+}
+pre {
+    position: relative;
+    bottom: 210px;
+    right: 210px;
+    font-size: 10pt;
+    z-index:3;
+   
+}
+.Tabs {
+    position: fixed;
+    width: 100%; /*To make tabs horizontally*/
+    height: 0;
+    padding: 40px 1000px;
+    background-color: rgb(223, 185, 31);
+    border: none;
+    margin: -40px -40px;
+    z-index: 4;
+}
+a {
+text-decoration: none;
+color: white;
+margin-right: 30px;
+position: relative;
+top: 10px;
+}
+.Dashboard {
+    float: left;
+    width: 20px;
+    height: 20px; 
+    padding: 230px 195px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(216, 173, 56);
+    margin: 80px 40px;
+}
+    
+.Budget {
+    float: left;
+    width: 20px;
+    height: 20px; 
+    padding: 230px 195px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(216, 173, 56);
+    margin: 80px 40px;
+   
+}
+.Checkbooks {
+    float: left;
+    width: 20px;
+    height: 20px; 
+    padding: 230px 195px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(216, 173, 56);
+    margin: 80px 40px;
+}
+.Money {
+    float: left;
+    width: 20px;
+    height: 20px; 
+    padding: 230px 195px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(216, 173, 56);
+    margin: 80px 40px;
+}
+input {
+    width: 350px;
+    background-color:rgb(216, 173, 56);
+    border: none;
+    height: 25px;
+    color: white;
+    position: relative;
+    bottom: 200px;
+    right: 160px;
+
+}
